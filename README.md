@@ -1,4 +1,4 @@
-# Follow Me Project
+## Follow Me Project
 
 Follow me is a simulation of a set of musical clips. Clips start playing when they are triggered. Clips can also have Follow Actions , which allow creating groups of clips that can trigger each other. 
 
