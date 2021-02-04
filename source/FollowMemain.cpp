@@ -12,7 +12,7 @@ void play(ListaClip* clips, int mTicks, const vector<float>& points);
 
 void manuali();
 
-// *************************************************************************
+// **************************************************************************|
 
 int main(int argc, char* argv[])
 {
