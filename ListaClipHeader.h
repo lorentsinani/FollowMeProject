@@ -14,7 +14,7 @@ public:
 	 
 	void addClip(Clip* c);
 	
-	//  kthen ne poziten egzistuese ( nese egziston )
+	//  kthen ne poziten ekzistuese ( nese ekziston )
 	
 	Clip* exists(std::string);
 	/*
@@ -27,7 +27,7 @@ public:
 	
 	void display();
 	/*
-	 *  egzekuton aksionin varesisht nga probabiliteti
+	 *  ekzekuton aksionin varesisht nga probabiliteti
 	 *  varesisht se a eshte jap numer random apo i determinuar
 	 */
 	void executeAction();
