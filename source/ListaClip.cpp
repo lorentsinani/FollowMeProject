@@ -9,7 +9,7 @@ actions actionOption(std::string word);
 
 ListaClip::ListaClip() 
 {
-	head = nullptr;
+	head = nullptr;       // 'nullptr' perdoret per 'literal pointer' e cila mund te konvertohet ne bool!
 	length = 0;
 }
 
@@ -36,7 +36,7 @@ Clip* ListaClip::exists(std::string name)
 	return nullptr;
 }
 
-void ListaClip::addClip(Clip* clip) 
+void ListaClip::addClip(Clip* clip) // inicializimi i funksionit per te nderfutur klipe treja
 {
 	if (head == nullptr) 
 	{
