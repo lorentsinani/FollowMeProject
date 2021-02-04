@@ -1,4 +1,4 @@
-## Follow Me Project
+# Follow Me Project
 
 A Clip in Live contains musical content, ranging from a short sound to an entire song. Some clips play once, while others loop forever.
 
@@ -12,7 +12,7 @@ Our project stimulate this in a simplified way.
 This project was given as a Task from University of Pristina.
 
 
-# Usage
+## Usage
 
 Once the application is running you need to provide valid inputs. The inputs are of two types.
 
