@@ -3,6 +3,7 @@
 #include "ListaClipHeader.h"
 
 // nuk perdoret namespace std per shkak te fjaleve te njejta te cilat behen "ambigious"
+
 Clip* executeActionHelper(Clip* head, int action, int length);
 enum actions { none, any, other, next, previous };
 actions actionOption(std::string word);
