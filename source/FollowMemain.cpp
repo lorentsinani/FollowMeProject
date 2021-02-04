@@ -22,9 +22,9 @@ int main(int argc, char* argv[])
 	string keyword = "";
 	string name, act1, act2, line;
 	int ticks, mTicks{}; // {} prapa Ticks jane perdorur per sshkak te uninitialized "mTicks"!
-	float prob1, prob2, point;
-	vector<float> points;
-	manuali();
+	float prob1, prob2, point;  // probabiliteti 1 dhe 2, floating point.
+	vector<float> points; // perdorimi i vektoreve
+	manuali(); // instruksionet
 	
 	// Perseritje per te lexuar te dhena hyrese nga tastiera
 
@@ -66,8 +66,8 @@ int main(int argc, char* argv[])
 
 void play(ListaClip* clips, int mTicks, const vector<float>& points)
 {
-	int numri = 0;
-	int numri2 = 0;
+	int numri = 0; // per te filluar numrimi nga 0 per shkak numrave tek.
+	int numri2 = 0; 
 	Clip* ptr;
 
 	// Perseritjet per te luajtur klipet
