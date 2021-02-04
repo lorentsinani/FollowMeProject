@@ -16,7 +16,8 @@ Clip::Clip()
 }
 
 Clip::Clip(const string name, const int ticks, const float c1,
-	const float c2, const string a1, const string a2) {
+	const float c2, const string a1, const string a2)
+{
 	this->name = name;
 	this->ticksToPlay = ticks;
 	this->chance1 = c1;
@@ -44,8 +45,7 @@ const int Clip::getTicksToPlay()
 {
 	return this->ticksToPlay;
 }
-// per pjesen e shanseve do te perdorim random numbers // numra te rastesishem
-const int Clip::chooseAction() 
+const int Clip::chooseAction()  // // per pjesen e shanseve do te perdorim random numbers // numra te rastesishem
 {
 	float sum, p1, random;
 	sum = this->chance1 + this->chance2;
