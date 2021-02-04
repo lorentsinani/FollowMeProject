@@ -27,7 +27,7 @@ type ' ticks <ticks to play> <...optional list of floating point numbers> '.
 
 ## Design
 
-You will find in this project comments for almost everything we did and used mostly.
+You will find in this project comments for almost everything we did and used.
 But overall this project was designed and approached using a double linked list to store the different clips.
 
 ## Authors
