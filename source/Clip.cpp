@@ -3,6 +3,8 @@
 #include "ClipHeader.h"
 using namespace std;
 
+// perdorimi i libraris stdlib.h(standard library) eshte per random numbers, konvertim etj.
+
 Clip::Clip() 
 {
 	this->name = "";
