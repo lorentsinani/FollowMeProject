@@ -2,15 +2,12 @@
 #define CLIPHEADER_H
 #include <iostream>
 
-// Klasa Clip. Struktura e datave e cila mban informacionin e qdo klipi.
-
-class Clip 
+class Clip       // Klasa Clip. Struktura e datave e cila mban informacionin e qdo klipi.
 {
 public:
 	Clip(); // konstruktor pa parametra - default
-	// konstruktor me parametra 
 	Clip(const std::string, const int, const float, const float,
-		const std::string, const std::string);
+		const std::string, const std::string);        // konstruktor me parametra 
 	
 	// marrja e atributeve te nevojshme per projekt
 	 
@@ -21,8 +18,8 @@ public:
 	
 	// Selekton aksionin per tu ekzekutuar
 
-	const int chooseAction();
-	const int chooseAction(const float&, const float&);
+	const int chooseAction(); // pa parametra - default
+	const int chooseAction(const float&, const float&);  // me parametra
 	
 	//lidhja e konektoreve apo ne kete rast aksioneve me klasen Clip*
 
@@ -30,8 +27,8 @@ public:
 	Clip* previous;
 	Clip* other;
 	Clip* any;
-	// klasa private 
-private:
+	
+private:    // klasa private 
 	std::string name; // name of the clip // emri
 	int ticksToPlay; // times to reproduce clip // sa here te riprodhohet
 	float chance1; // chances to execute action 1 // shanset te egzekutohet aksioni 1
