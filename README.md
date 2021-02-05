@@ -30,6 +30,10 @@ type ' ticks <ticks to play> <...optional list of floating point numbers> '.
 You will find in this project comments for almost everything we did and used
 but overall this project was designed and approached using a double linked list to store the different clips.
 
+## Execution 
+
+https://drive.google.com/drive/folders/1zVx6Bq1Nyb80Pk3uyfahMryH6lSDEJfV?usp=sharing
+
 ## Authors
 
 -Lorent Sinani
